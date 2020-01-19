@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+
+body {
+  background-color: rgb(54, 53, 148);
+  height: 100vh;
+}
+
+#drum-heading {
+  font-family: "Viga", sans-serif;
+}
+
+#display {
+  font-family: "Orbitron", sans-serif;
+  color: red;
+  font-weight: bold;
+  outline: 5px solid rgb(37, 37, 37);
+  outline-offset: -5px;
+}
+
+button {
+  font-family: "Viga", sans-serif;
+}
+
+.drum-pad {
+  color: black;
+  background-color: white;
+  width: 90px;
+  height: 70px;
+}
+.drum-pad:hover {
+  background-color: rgb(39, 91, 158);
+}
+.drum-pad:active {
+  background-color: red;
+}
+.drum-pad:focus {
+  background-color: rgb(163, 238, 93);
+  font-weight: bold;
+  border: 3px solid rgb(151, 89, 89);
+}
+.off-button {
+  background-color: red;
+}
+.on-button {
+  background-color: green;
+}
+.on-button:hover {
+  background-color: white;
+  color: black;
+}
+.on-button:focus {
+  background-color: white;
+  color: green;
+}
+.off-button:hover {
+  background-color: white;
+  color: black;
+}
+.off-button:focus {
+  background-color: white;
+  color: red;
+}
