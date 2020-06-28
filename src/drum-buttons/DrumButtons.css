@@ -1,0 +1,15 @@
+.drum-container {
+  background-color: rgba(49, 48, 48, 0.116);
+  border-radius: 5px;
+  height: 300px;
+  width: 350px;
+  color: white;
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.199);
+  margin: auto;
+}
+
+.drum-pad {
+  width: 100px;
+  height: 100px;
+  background-color: whitesmoke;
+}

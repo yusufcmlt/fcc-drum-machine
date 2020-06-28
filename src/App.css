@@ -1,39 +1,28 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css?family=Viga&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #320b8d;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+#drum-machine {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
 }
-
-.App-link {
-  color: rgb(83, 6, 236);
+.drum-h1 {
+  font-family: "Viga", sans-serif;
+  color: #ffc21c;
+  font-size: 60px;
+  text-shadow: -3px 2px #f72585;
+  transition-duration: 0.5s;
+  cursor: grab;
+  margin: auto;
+  margin-top: 100px;
+  height: 150px;
 }
-
-@keyframes App-logo-float {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
+.drum-h1:hover {
+  text-shadow: 4px 0px #f72585;
+}
+@media only screen and (max-width: 768px) {
+  .drum-h1 {
+    font-size: 50px;
   }
 }
