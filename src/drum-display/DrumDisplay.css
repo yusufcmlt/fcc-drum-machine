@@ -1,11 +1,11 @@
 #display {
   background: #ffc21c;
   border-radius: 5px;
-  color: #ca236e;
+  color: #f72585;
   height: 15%;
   margin: 5px;
   font-family: "Orbitron", sans-serif;
-  font-size: 22px;
+  font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -53,6 +53,17 @@ export default function DrumButtons() {
           );
         })}
       </div>
+      <p>
+        Created by{" "}
+        <a
+          id="pdouu-link"
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://github.com/pdouu"
+        >
+          pdouu
+        </a>
+      </p>
     </div>
   );
 }

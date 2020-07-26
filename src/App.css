@@ -11,18 +11,19 @@ body {
   font-family: "Viga", sans-serif;
   color: #ffc21c;
   font-size: 60px;
-  text-shadow: -2px 2px #f72585;
+  text-shadow: -3px 2px #f72585;
   transition-duration: 0.5s;
   cursor: grab;
   margin: auto;
-  margin-top: 100px;
-  height: 150px;
+  margin-top: 150px;
+  height: 130px;
 }
 .drum-h1:hover {
-  text-shadow: 2px 2px #f72585;
+  text-shadow: 3px 2px #3de2f8;
 }
 @media only screen and (max-width: 768px) {
   .drum-h1 {
     font-size: 50px;
+    margin-top: 50px;
   }
 }
