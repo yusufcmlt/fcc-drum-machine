@@ -7,15 +7,20 @@ import "./DrumButtons.css";
 
 export default function DrumButtons() {
   const [drumDisplay, setDrumDisplay] = useState("Press Any Button");
+  const [pressedButton, setPressedButton] = useState();
 
   useEffect(() => {
     document.addEventListener("keydown", keyPressEvent);
-  }, []);
+  });
 
   const keyPressEvent = (event) => {
-    drumInfoList.map((key) => {
+    drumInfoList.forEach((key) => {
       if (key.keyCode === event.keyCode) {
         playAudio(key.keyTrigger, key.id);
+        setPressedButton(event.keyCode);
+        setTimeout(() => {
+          setPressedButton("");
+        }, 100);
       }
     });
   };
@@ -34,7 +39,11 @@ export default function DrumButtons() {
         {drumInfoList.map((key) => {
           return (
             <button
-              className="drum-pad"
+              className={
+                key.keyCode === pressedButton
+                  ? "drum-pad drum-pad-pressed"
+                  : "drum-pad"
+              }
               onClick={() => playAudio(key.keyTrigger, key.id)}
               id={key.keyCode}
             >

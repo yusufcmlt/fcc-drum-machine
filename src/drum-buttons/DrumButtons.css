@@ -34,3 +34,9 @@
   box-shadow: 0px 1px 0px 0px #ffc21c;
   transform: translateY(4px);
 }
+.drum-pad-pressed {
+  color: #ffc21c;
+  background-color: rgb(114, 112, 112);
+  box-shadow: 0px 1px 0px 0px #ffc21c;
+  transform: translateY(4px);
+}
