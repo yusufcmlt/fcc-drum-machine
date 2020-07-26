@@ -1,11 +1,6 @@
 import React from "react";
 import "./DrumDisplay.css";
 
-export default function DrumDisplay() {
-  return (
-    <div>
-      <div>TEST</div>
-      <div>TEST</div>
-    </div>
-  );
+export default function DrumDisplay({ drumDisplay }) {
+  return <div id="display">{drumDisplay}</div>;
 }

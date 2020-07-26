@@ -1,0 +1,18 @@
+#display {
+  background: #ffc21c;
+  border-radius: 5px;
+  color: #ca236e;
+  height: 15%;
+  margin: 5px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -1px 2px 1px 1px #f72585;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#display:hover {
+  color: #000000;
+}
