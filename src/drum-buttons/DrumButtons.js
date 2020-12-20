@@ -59,7 +59,7 @@ export default function DrumButtons() {
         target="_blank"
         href="https://github.com/yusufcmlt/fcc-drum-machine"
       >
-        {" "}
+        {"  "}
       </a>
     </div>
   );
