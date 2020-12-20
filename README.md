@@ -2,5 +2,5 @@
 
 # React Drum Machine
 
- React drum machine. Created as a FreeCodeCamp front end project.
+- React drum machine. Created as a FreeCodeCamp front end project.
 - You can check it on [here](https://yusufcmlt.github.io/fcc-drum-machine/ "here").
