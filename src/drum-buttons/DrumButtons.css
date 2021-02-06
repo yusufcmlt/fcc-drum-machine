@@ -50,5 +50,5 @@
     brightness(101%) contrast(101%);
 }
 .github-link:hover {
-  filter: none;
+  filter: invert(100%);
 }
