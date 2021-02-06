@@ -6,6 +6,10 @@ body {
 #drum-machine {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+  align-items: center;
+  justify-content: center;
 }
 .drum-h1 {
   font-family: "Viga", sans-serif;
@@ -13,15 +17,16 @@ body {
   font-size: 60px;
   text-shadow: -3px 2px #f72585;
   transition-duration: 0.5s;
-  cursor: grab;
-  margin: auto;
-  margin-top: 150px;
-  height: 130px;
+  cursor: pointer;
 }
 .drum-h1:hover {
   text-shadow: 3px 2px #3de2f8;
 }
 @media only screen and (max-width: 768px) {
+  #drum-machine {
+    align-items: center;
+    justify-content: flex-start;
+  }
   .drum-h1 {
     font-size: 50px;
     margin-top: 50px;

@@ -5,7 +5,6 @@
   height: 400px;
   width: 350px;
   color: white;
-  margin: auto;
   font-family: "Orbitron", sans-serif;
   text-align: center;
 }
@@ -42,9 +41,9 @@
   transform: translateY(4px);
 }
 .github-link {
-  background-image: url("https://assets.stickpng.com/images/5847f98fcef1014c0b5e48c0.png");
-  width: 50px;
-  height: 50px;
+  background-image: url("../assets/github-button.png");
+  width: 70px;
+  height: 70px;
   display: inline-block;
   background-size: 100%;
   filter: invert(89%) sepia(23%) saturate(3774%) hue-rotate(340deg)

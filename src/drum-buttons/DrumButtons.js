@@ -46,6 +46,7 @@ export default function DrumButtons() {
               }
               onClick={() => playAudio(key.keyTrigger, key.id)}
               id={key.keyCode}
+              key={key.keyCode}
             >
               <audio className="clip" id={key.keyTrigger} src={key.url}></audio>
               {key.keyTrigger}
